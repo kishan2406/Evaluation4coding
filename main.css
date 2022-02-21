@@ -1,0 +1,27 @@
+
+
+#container{
+
+    display: flex;
+    height: 500px;
+}
+
+#sidebar{
+    flex: 2;
+    border: 1px solid black;
+    grid: flex;
+    grid-template-columns: (3,1fr);
+    gap: 10px;
+
+}
+
+#main{
+    flex: 8;
+    border: 1px solid black;
+
+  
+}
+img{
+    width: 400px;
+    height:300px;
+}
